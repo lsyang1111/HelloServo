@@ -12,6 +12,7 @@ sudo python3 HelloServo.py
 # Next 
 1. Use Li Battery
 2. Servo code
+    1. 把兩種code(web-server跟servo control)合起來
     1. 寫註解
         MIN/MAX_IMP PWM domain
         MIN/MAX_ANG Angle domain
