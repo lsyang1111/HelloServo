@@ -9,10 +9,14 @@ from adafruit_servokit import ServoKit    #https://circuitpython.readthedocs.io/
 nbPCAServo=16 
 
 #Parameters
+#IMP是PWM高電位的時間
+#ANG是對應到的Servo角度, 0度是順時針轉到底的角度, 180度是逆時針轉到底的角度
 MIN_IMP  =[500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500]
 MAX_IMP  =[2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500]
 MIN_ANG  =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 MAX_ANG  =[180, 180, 180, 180, 180, 180, 180, 180, 180, 180, 180, 180, 180, 180, 180, 180]
+
+
 
 #Objects
 pca = ServoKit(channels=16)
