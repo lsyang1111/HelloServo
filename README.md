@@ -12,6 +12,7 @@ sudo python3 HelloServo.py
 # Next 
 1. Use Li Battery
     > 3cell的電池無法用在power board上面, charge IC跟電路沒有找到Input電壓過低無法使用的限制
+    > 使用ADP的時候, 我量測PR9951的右邊, 是19V; 使用電池的時候, 我量測PR9951的右邊, 是0.18V, 所以不是Enabled pin的問題, 而是電根本沒進來
 2. Servo code
     > 把兩種code(web-server跟servo control)合起來
     > 寫註解
